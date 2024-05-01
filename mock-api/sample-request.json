@@ -1,0 +1,25 @@
+{
+    "httpRequest":{
+        "method": "GET",
+        "path": "/path/test",
+        "headers": {},
+        "body":{
+            "type": "JSON",
+            "contentType": "application/x-www-form-urlencoded"
+        }
+    },
+    "httpResponse":{
+        "statusCode": 200,
+        "body":{
+            "charset": "UTF-8",
+            "type": "JSON",
+            "json": {
+                "text": "you json here"
+            }
+        },
+        "delay":{
+            "timeUnit": "MILLISECONDS",
+            "value": 500
+        }
+    }
+}
